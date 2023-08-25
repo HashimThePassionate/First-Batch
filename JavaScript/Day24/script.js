@@ -1,0 +1,23 @@
+// console.dir(window);
+// console.log(window.toString);
+// console.dir(document);
+// console.dir(document.URL);
+// console.log(document.title);
+// document.title = "DOM JavaScript";
+// var temp = document.getElementsByTagName('div');
+// console.log(temp);
+// console.log(temp[1]);
+// var change = temp[1].innerText = "Hello This is Yunus, In Sha Allah a senior Software developer Efix Solutions";
+var image = document.getElementById('PIAIC');
+// console.log(PIAIC);
+image.src="./Moon.jpg"
+// var wahab =  document.getElementById('wahab');
+// console.log(wahab);
+// wahab.innerText="This is Wahab";
+// var ul =  document.getElementById('ul');
+// ul.style.backgroundColor= "salmon";
+// ul.style.padding="30px";
+// var c =  document.getElementsByClassName('containerr');
+// // ul.style.border="2px solid green";
+// var abc =  document.getElementById('abc');
+// abc.style.border="2px solid black";

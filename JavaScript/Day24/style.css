@@ -1,0 +1,17 @@
+.container{
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid salmon;
+    padding: 50px;
+    margin: 30px;
+}
+.container1{
+    text-align: center;
+}
+.containerr{
+    box-sizing: border-box;
+    border: 2px solid salmon;
+    padding: 50px;
+    margin: 30px;
+    font-size: 30px;
+}
