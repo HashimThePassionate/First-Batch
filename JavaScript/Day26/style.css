@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 192, 186);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(./Salmon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#form{
+    height: 400px;
+    width: 400px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgb(251, 161, 151);
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    color: salmon;
+    margin-bottom: 20px;
+}
+input{
+    font-size:medium;
+    margin-bottom: 15px;
+    border: 2px solid salmon;
+}
+label{
+    font-size: 20px;
+    color: salmon;
+    font-weight: 600;
+    display: block;
+}
+input::placeholder{
+    color: salmon;
+    font-size: 15px;
+}
+input:focus{
+    outline: 1px solid rgb(255, 179, 170); 
+    /* border: 4px solid rgb(252, 201, 195); */
+}
+.customIcon{
+    color: salmon;
+    font-size: 20px;
+}
+#btn{
+    padding: 5px 60px;
+    background-color: white;
+    color: salmon;
+    border: 2px solid salmon;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+#btn:hover{
+    background-color: salmon;
+    color: white;
+}

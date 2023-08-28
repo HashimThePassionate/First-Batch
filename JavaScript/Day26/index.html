@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form" novalidate>
+            <div class="title">Get Started</div>
+            <!-- inputText -->
+            <div>
+                <label for="username">Name <i class="fas fa-user customIcon"></i></label>
+                <input type="text" name="" id="username" placeholder="Please Enter Your Name" >
+                <i class="fas fa-exclamation-circle failure-icon customIcon"></i>
+                <i class="far fa-check-circle success-icon customIcon"></i>
+                <div class="error"></div>
+            </div>
+            <!-- InputEmail -->
+            <div>
+                <label for="email">Email <i class="far fa-envelope customIcon"></i></label>
+                <input type="email" name="" id="email" placeholder="Please Enter Your Email">
+                <i class="fas fa-exclamation-circle failure-icon customIcon"></i>
+                <i class="far fa-check-circle success-icon customIcon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="password">Password <i class="fas fa-lock customIcon"></i></label>
+                <input type="password" name="" id="password" placeholder="Please Enter Your Password">
+                <i class="fas fa-exclamation-circle failure-icon customIcon"></i>
+                <i class="far fa-check-circle success-icon customIcon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <button id="btn" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/12292f8449.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
