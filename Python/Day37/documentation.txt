@@ -1,0 +1,31 @@
+Steps #1
+create python file i.e. main.py
+Step #2
+create New folder i.e. sphinx-documentation
+Step #3 
+Navigate to sphinx-documentation directory
+Step #4
+install sphinx to generate professional documentation!
+command =>
+pip install sphinx
+Step #5
+After installing sphinx run this command to quickstart sphinx
+sphinx-quickstart
+Step #6
+open conf.py file
+import os, sys modules
+and include path to extract documentation from main.py file
+i.e
+sys.path.insert(0,os.path.abspath('path here!'))
+also make sure to activate extensions using this command
+extensions = ['sphinx.ext.autodoc']
+Step #7
+open index.rst file
+add automodule to fetch main module
+.. automodule:: main
+   :members:
+Step #7
+Generate Html Documentaion
+run this command
+sphinx-build -b html . _build/html
+
